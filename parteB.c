@@ -175,10 +175,14 @@ int tryKey(long key, char *ciph, int len) {
 long theKey = 3L;
 
 int main(int argc, char *argv[]) { // char **argv
+    // print amount of arguments
+    printf("argc = %d\n", argc);
     if (argc < 2) {
         return 1;
     }
+
     theKey = strtol(argv[1], NULL, 10);
+    printf("theKey = %ld\n", theKey);
 
     int processSize, id;
     long upper = (1L << 56); // Límite superior de las claves DES (2^56)
@@ -255,3 +259,4 @@ int main(int argc, char *argv[]) { // char **argv
     // Finalizar MPI
     MPI_Finalize();
 }
+// naive

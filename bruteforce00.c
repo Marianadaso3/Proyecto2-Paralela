@@ -5,7 +5,12 @@
 #include <stdlib.h>
 #include <mpi.h>
 #include <unistd.h>
-#include <rpc/des_crypt.h>	//OJO: NO esta funcionando esta libreria -consultar Oscar
+#include <ntirpc/rpc/des_crypt.h>
+	//OJO: NO esta funcionando esta libreria -consultar Oscar
+
+// compile c program
+// mpicc -o bruteforce00 bruteforce00.c
+
 
 //descifra un texto dado una llave
 void decrypt(long key, char *ciph, int len){

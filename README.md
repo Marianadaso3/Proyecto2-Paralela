@@ -6,7 +6,7 @@
 
 ```shell
   mpicc <nomre_del_archivo>.c -o <ejecutable> -lssl  -lcrypto
-  mpirun -np <numero_de_procesos> <clave>
+  mpirun -np <numero_de_procesos> ./<archivo>  <clave>
 ```
 
 ## Miembros
