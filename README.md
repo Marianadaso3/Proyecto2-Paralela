@@ -1,6 +1,6 @@
 # Proyecto2-Paralela
 
-Ejecutar codigo
+
 
 ## Ejecución del codigo
 
@@ -11,6 +11,6 @@ Ejecutar codigo
 
 ## Miembros
 
-Angel Higueros
-Pablo Escobar
-Mariana David
+1. Angel Higueros
+2. Pablo Escobar
+3. Mariana David
